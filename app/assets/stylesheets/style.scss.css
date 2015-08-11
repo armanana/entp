@@ -77,9 +77,7 @@ h6, h6 a
 	}
 
 footer {
-	border-color:rgba(0, 0, 0, 0.0666667);
-  border-style:solid;
-  border-width:1px 0 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.0666667);
 }
 
 #pageheader	{
