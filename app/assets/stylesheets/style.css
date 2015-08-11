@@ -41,7 +41,7 @@ html,body{
 	width: 100%;
 	color:#000;  
 	font-size:14px;
-	font-family: Open Sans, serif;
+	font-family:'Open Sans', sans-serif;
 	font-weight:100;
 	line-height:18pt; 
 	letter-spacing: 0.2pt;
@@ -310,7 +310,7 @@ header .search input{
 	width:0px;
 	opacity:0;
 	height:25px;
-	font-family: Open Sans, serif;
+  	font-family:'Open Sans', sans-serif;
 	padding:0px 6px;
 	box-sizing:border-box;
 	float:left;
@@ -729,7 +729,7 @@ body.page .title_center p{
 	left:4%;
 	}
 #slider-4 .last:before , #slider-4 .next:before, #slider-1 .last:before , #slider-1 .next:before{
-	font-family:icon;
+	font-family: "icon";
 	content: '\e606'; 
 	margin:0;
 	padding:0;
@@ -1038,7 +1038,7 @@ body.page .title_center p{
 	background:#565656;
 	}
 .staff-img span.last:before , .staff-img span.next:before {
-	font-family:icon;
+	font-family: "icon";
 	content: '\e606'; 
 	-ms-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
@@ -2229,7 +2229,7 @@ ul.portfolio-4 > li .work_desc{
 	display:none;
 	}
 ul.portfolio-4 > li .work_desc .type{
-	font-family:OpenSans, serif; 
+	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase; 
 	}
 ul.portfolio-4 > li .work_desc div{
