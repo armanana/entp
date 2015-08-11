@@ -1,0 +1,345 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Roboto+Slab:900,700,500,300&subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,cyrillic,latin-ext);
+
+
+
+/* [01] BLUE *************************************/
+
+/* 01 background color*/
+.page_top,
+.accordion li.active a,
+.row.protype .column:nth-child(even),
+body.menu-bg header,
+body.menu-auto-bg.scrolltop header,
+section.pricing div.selected{
+	background-color:#5bb4f3;
+	}
+	
+/* 01 Text Color */
+section.pricing > div h1,
+.audio.active:hover a,
+.audio .stop:hover,
+.audio a ,
+.tabs li.active a,
+.not-found h1,
+.ajax-inject .close:hover{
+	color:#5bb4f3
+	}
+	
+/* 01 borders colors */
+button.light:hover,
+.btn.light:hover,
+.audio.active:hover,
+.audio{
+	border-color:#5bb4f3;
+	}
+	
+	
+	
+/* [02] Yellow *************************************/
+
+
+	
+/* background color*/
+button , 
+.btn , 
+.bg,
+.icon-box.normal,
+.btn.light:hover , 
+button.light:hover,
+.tabs.vertical li ,
+.accordion li a,
+.table thead,
+select option:checked,
+table.hover-bg tr:hover,
+.menu > li li:hover,
+.icon-box.box-bg,
+.audio .stop,
+section.contact p:hover i,
+.colorbg,
+.pagenation-1 .prew:hover , 
+.pagenation-1 .next:hover,
+ul.features-1 > li:hover,
+.features-3 .column:hover i,
+#slider-4 .last:after , 
+#slider-4 .next:after, 
+#slider-1 .last:after , 
+#slider-1 .next:after,
+.mobile-contact-btn{
+	background-color:#f4ed48;
+	}
+.row h4 {
+	line-height: 28px;
+}
+.row h4 a {
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 13px;
+	padding: 0 10px;
+	border: 1px solid #333;
+	margin-top: 15px;
+	float: left;
+	display: block;
+	text-transform: uppercase;
+}
+
+.row h4 a:hover {
+	color: #fff;
+	border: 1px solid #1fd5b2;
+	background: #1fd5b2;
+}	
+
+.second-left {
+	background-color: #fff;
+}
+	
+/* Text Color */
+.videofooter a:hover,
+.menu > li:hover a,
+.menu > li:hover a,
+.menu > li.active > a ,
+.menu > li:hover a,
+.menu > li.active > a,
+.menu.compact li:hover a,
+.menu.compact li.active a,
+.audio.active .play,
+.staff-1 .row .column .about .social a:hover{
+	color:#f4ed48
+	}
+	
+/* Borders colors */
+.menu > li.active a,
+button , 
+.btn,
+.audio.active,
+.audio .stop:hover,
+.audio .stop,
+ul.blog-1 > li .blog_desc a:hover span, 
+ul.blog-1 > li.info_text a:hover span,
+.pagenation-1 .prew:hover , 
+.pagenation-1 .next:hover,
+.features-3 .column:hover i{
+	border-color:#f4ed48;
+	}
+
+	
+	
+	
+/* [03] Gray *************************************/
+
+
+	
+/* Background color*/
+.box-bg,
+.icon-box.box-bg:hover,
+.tabs ul li:hover,
+.input [class^="icon-"],
+.input [class*="icon-"], 
+.icon-box.normal:hover, 
+.table.zebra tbody tr:nth-child(even),
+.btn.normal:hover , 
+button.normal:hover,
+.row.protype .column:nth-child(odd),
+body > .search .fixing,
+.portfolio-load,
+.staff-2,
+ul.features-1 > li,
+.second-left{
+	background-color:#eee;
+	}
+	
+/* Text Color */
+element{
+	color:#eee
+	}
+	
+/* Borders colors */
+.icon-box, 
+.box,
+.input,
+.tabs.vertical ul li.active,
+.tabs ul li.active,
+.tabs ul,
+.accordion li > div.content,
+.table th, 
+.table td,
+.table,
+input[type=text],
+textarea,select,
+.input [class^="icon-"],
+.input [class*="icon-"],
+.menu > li > ul > li ul,
+.menu > li > ul > li,
+.menu > li > ul > li ul li,
+.menu > li:last-child > ul > li ul ,
+section.pricing div > ul.list li,
+section.pricing div > ul.list  ,
+.pagenation-1 .prew , 
+.pagenation-1 .next{
+	border-color:#eee;
+	}
+
+	
+	
+	
+/* [04] Light *************************************/
+
+
+	
+/* Background color*/
+.audio.active,
+section.pricing > div,
+section.pricing div.selected button:hover,
+.menu > li li,
+.menu > li.sub:hover,
+.audio,
+body.menu-bg header .compact-menu-icon figure,
+body.menu-bg header .compact-menu-icon figure:before,
+body.menu-bg header .compact-menu-icon figure:after,
+body.menu-auto-bg header .compact-menu-icon figure,
+body.menu-auto-bg header .compact-menu-icon figure:before,
+body.menu-auto-bg header .compact-menu-icon figure:after,
+body.menu-absolute header .compact-menu-icon figure,
+body.menu-absolute header .compact-menu-icon figure:before,
+body.menu-absolute header .compact-menu-icon figure:after,
+body.menu-fix header .compact-menu-icon figure,
+body.menu-fix header .compact-menu-icon figure:before,
+body.menu-fix header .compact-menu-icon figure:after,
+header .search,
+.admintab > .content,
+.about-us,
+.contact-info,
+section.contact i,
+.light button:hover ,
+.light a.btn:hover,
+.pageslider.light ul.nav li ,
+.portfolio-load:hover,
+#staff-3,
+ul.blog-1 > li:hover,
+ul.blog-1 > li .blog_desc:before,
+ul.blog-1 > li,
+.second-right,
+.white-bg{
+	background-color:#FFF;
+	}
+	
+/* Text Color */
+button,.btn ,
+.accordion li.active a,
+button.light:hover,
+.btn.light:hover,
+.row.protype .column:nth-child(even),
+.icon-box.normal,
+.video a,
+.icon-box.normal,
+.page_top h1,
+section.pricing div.selected,
+section.pricing > .selected h1 ,
+.menu.compact li a,
+.menu.compact .sub:hover a,
+#slider-1.light .slid,
+.staff-1 .row .column .about .social a,
+.staff-1 .row .column .about,
+.light,
+body.menu-auto-bg header .menu li a,
+body.menu-absolute header .menu li a,
+body.menu-fix header .menu li a,
+body.menu-bg header .menu li a,
+ul.portfolio-2 li .work-desc,
+ul.portfolio-2 li .work-desc a,
+.staff-img span.next , .staff-img span.last,
+.pageslider.light a,
+#slider-1 .last , #slider-1 .next{
+	color:#FFF;
+	}
+	
+/* Borders colors */
+section.pricing div.selected button:hover,
+.light button:hover,
+.light a.btn:hover,
+.pageslider.light ul.nav li.active{
+	border-color:#FFF;
+	}
+
+	
+	
+	
+/* [05] Dark *************************************/
+
+	
+	
+/* Background color*/
+.video:before,
+.menu.compact,
+.staff-1 .row .column:before,
+.compact-menu-icon figure,
+.compact-menu-icon figure:before,
+.compact-menu-icon figure:after,
+.pageslider.light,
+ul.portfolio-2 li:before,
+.light-bg{
+	background-color:#222;
+	}
+	
+/* Text Color */
+button , 
+.btn ,
+button.light,
+.btn.light,
+.tabs.vertical li a,
+button:hover , 
+.btn:hover ,
+.box-bg,
+.accordion li a,
+.table thead,
+select option:checked,
+table.hover-bg tr:hover ,
+.tabs li a,
+.menu .sub:hover a,
+.contact-info,
+section.contact i,
+.menu li a,
+.menu li.active a,
+footer a,
+ul.portfolio-1 > li .work_desc a,
+.portfolio-load,
+#slider-2 .social a:hover,
+.pagenation-1 .prew a , 
+.pagenation-1 .next a,
+ul.blog-1 > li a:hover,
+h2.second,
+#slider-4 .last:hover , 
+#slider-4 .next:hover, 
+#slider-1 .last:hover , 
+#slider-1 .next:hover{
+	color:#222;
+	}
+	
+/* Borders colors */
+button:hover , 
+.btn:hover,
+button.light:hover,
+.btn.light:hover,
+.video .play,
+.dark-border,
+#slider-2 > ul.nav li.active{
+	border-color:#222;
+	}
+	
+	
+	
+	
+/* [07] Responsive *************************************/
+	
+	
+@media screen and (max-width: 768px){
+
+	header{
+		position:relative !important;
+		background:#5bb4f3!important;
+		}
+	body.index header{
+		position:absolute !important;
+		background:none !important;
+		}
+}

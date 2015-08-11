@@ -1,0 +1,403 @@
+
+
+@media screen and (max-width: 1700px){
+
+}
+@media screen and (min-width: 1701px){
+
+}
+@media screen and (max-width: 1050px){
+	section.container, footer, section div.content{
+	width:960px;
+	}
+	h1 {
+		font-size: 19pt;
+		line-height: 25pt;
+		}
+	h2 {
+		font-size: 18pt;
+		line-height: 25pt;
+		}
+	
+/* Portfolio */
+	.portfolio-4,.portfolio-1,.portfolio-3, .features-1 {
+		display:inline-block !important;
+		position:relative !important;
+		width:102% !important; 
+		height:auto !important; 
+		margin:0 0 0 -3% !important; 
+
+		}
+	.portfolio-4 > li, .portfolio-1 > li, .portfolio-3 > li, .features-1 li{
+		width:47% !important;  
+		height:250px !important; 
+		position:relative  !important; 
+		top:0  !important;  
+		left:0  !important; 
+		float:left;
+		overflow: hidden;
+		margin:0 0 3% 3% !important;
+		}	
+
+	.portfolio-4 > li.big, .portfolio-1 > li.big, .portfolio-3 > li.big , .features-1 li{
+		width:97% !important; 
+		height:auto !important;  
+		}
+
+	ul.portfolio-1 > li.big.pageslider .slid .slid-text, ul.portfolio-3 > li.big.pageslider .slid .slid-text, ul.portfolio-4 > li.big.pageslider .slid .slid-text{
+		padding:50px;
+		}
+
+	ul.portfolio-1 > li > ul.nav, ul.portfolio-3 > li > ul.nav, ul.portfolio-4 > li > ul.nav {
+		padding: 0;
+		margin-bottom: -20px;
+		}	
+
+	ul.portfolio-2 li{
+		width:50%;
+		}
+	ul.portfolio-1 > li.big:hover img, ul.portfolio-1 > li.big:hover img{
+		position:relative;
+		margin:0;
+		}		
+	ul.portfolio-2 li.big{
+		width:100%;
+		}
+	ul.portfolio-4 > li img, ul.portfolio-1 > li img{
+		position:relative;
+		width:100%;
+		}
+	
+	ul.portfolio-3 > li.big i , ul.portfolio-1 > li.big i, ul.portfolio-4 > li.big i , ul.portfolio-1 > li.big i {
+		font-size: 23pt;
+		line-height: 15pt;
+		}
+	ul.portfolio-1 > li > ul.nav, ul.portfolio-3 > li > ul.nav, ul.portfolio-4 > li > ul.nav {
+		padding: 0;
+		margin: 0;
+		position: absolute;
+		bottom: 60px;
+		left: 50px;
+		}	
+	ul.portfolio-1 > li.info_text, ul.portfolio-3> li.info_text, ul.portfolio-4> li.info_text{
+		padding: 25px;
+		}
+	ul.portfolio-1 > li.info_text h2,ul.portfolio-3 > li.info_text h2,ul.portfolio-4 > li.info_text h2{
+		font-size:1.2rem;
+		}
+		
+}
+@media screen and (max-width: 960px){
+	section.container, footer,section div.content{
+		width:100%;
+		padding-right:30px;
+		padding-left:30px;
+		box-sizing:border-box;
+	}	
+
+
+	
+}
+@media screen and (max-width: 768px){
+
+	.content-bg{
+		padding:40px;
+		}
+	footer{
+		width:100%;
+		display:table;
+		}
+	footer a{
+		opacity:1;
+		}
+		
+	/* Full width Index version 2 */	
+	body.index section .content .img{
+		display:block; 
+		width:100%;  
+		text-align:center!important;
+		}
+	body.index section .content .img img{
+		width:150px !important; 
+		display:block; 
+		margin:auto;
+		}
+	body.index section .content .info{
+		width:100%; 
+		text-align:center!important; 
+		display:block; 
+		padding-top:50px;
+		}
+	body.index section .content .info p, body.index section .content .info h1 {
+		margin:auto; 
+		width:100%; 
+		margin-bottom:20px;
+		}
+	body.index section .content {
+		-webkit-transform: scale(0.8);
+		-moz-transform: scale(0.8);
+		-ms-transform: scale(0.8);
+		transform: scale(0.8);
+		}
+
+/* Portfolio */	
+	div.contact-1 .left.info{
+		height:auto;
+		}
+	div.contact-1 .right{
+		height:400px;
+		}
+/* Portfolio */
+	.portfolio-4,.portfolio-1,.portfolio-3, .features-1 {
+		display:inline-block !important;
+		position:relative !important;
+		width:102% !important; 
+		height:auto !important; 
+		margin:0 0 0 -3% !important; 
+
+		}
+	.portfolio-4 > li, .portfolio-1 > li, .portfolio-3 > li, .features-1 li{
+		width:47% !important;  
+		height:250px !important; 
+		position:relative  !important; 
+		top:0  !important;  
+		left:0  !important; 
+		float:left;
+		overflow: hidden;
+		margin:0 0 3% 3% !important;
+		}	
+
+	.portfolio-4 > li.big, .portfolio-1 > li.big, .portfolio-3 > li.big , .features-1 li{
+		width:97% !important; 
+		height:auto !important;  
+		}
+
+	ul.portfolio-1 > li.big.pageslider .slid .slid-text, ul.portfolio-3 > li.big.pageslider .slid .slid-text, ul.portfolio-4 > li.big.pageslider .slid .slid-text{
+		padding:50px;
+		}
+
+	ul.portfolio-1 > li > ul.nav, ul.portfolio-3 > li > ul.nav, ul.portfolio-4 > li > ul.nav {
+		padding: 0;
+		margin-bottom: -20px;
+		}	
+
+	ul.portfolio-2 li{
+		width:50%;
+		}
+	ul.portfolio-1 > li.big:hover img, ul.portfolio-1 > li.big:hover img{
+		position:relative;
+		margin:0;
+		}		
+	ul.portfolio-2 li.big{
+		width:100%;
+		}
+		
+/* Social section */
+	.social-1 li a{
+		font-size:0px;
+		}
+	.social-1 li a:before{
+		font-size:15pt;
+		}
+	.social-1 li a span{
+		display:none;
+		}
+		
+/* staff section */
+	#staff-3 .slid p {
+		width:85%;
+		}
+		
+/* Pagination */
+	.pagenation-1 a h2, .pagenation-1 a span {
+		display:none;
+		}	
+	.pagenation-1 a:before{
+		font-size: 33pt !important;
+		margin:0 !important;
+		position:relative !important;
+		}
+
+/* Blog section */
+	.blog-1{
+		display:inline-block !important;
+		position:relative !important;
+		width:100% !important; 
+		height:auto !important; 
+		margin:0 !important; 
+		}
+	.blog-1 li{
+		width:100% !important; 
+		height:auto !important;  
+		position:relative  !important; 
+		top:0  !important;  
+		left:0  !important; 
+		float:left;
+		overflow: hidden;
+		margin:0 0 2% 0 !important;
+		}	
+	.blog-1 li.big img{
+		width:100% !important;
+		height:auto;		
+		}
+		
+/* SLider */
+	#slider-4{
+		height:50%;
+		}	
+		
+	#slider-4 .slid .middle{
+		-webkit-transform: scale(0.5);
+		-moz-transform: scale(0.5);
+		-ms-transform: scale(0.5);
+		transform: scale(0.5);
+		}
+
+/* Support*/
+	body > .search .fixing.active {
+		position:relative;
+		top:0;
+		}	
+		
+/* Contact */
+
+	section.contact{
+		height:auto ;
+		}
+	section.contact #map{
+		height:400px;
+		position:relative;
+		}	
+	section.contact .info{
+		display:block;
+		position:relatibe;
+		color:#222;
+		padding-top:25px;
+		}
+
+
+/* Scroll - other devices */		
+
+	body{
+		overflow: initial !important;	
+		} 
+	.nicescroll-rails{
+		display:none !important;	
+		} 
+	
+		
+}
+
+@media screen and (max-width: 600px){
+	/* Portfolio */
+	.portfolio-4 > li, .portfolio-1 > li, .portfolio-3 > li{
+		height:200px !important; 
+		}
+		
+	/* Pricing */	
+	.pricing > div{
+		width:100%!important; 
+		}
+		
+		
+		
+		
+		
+		
+		
+	}
+
+@media screen and (max-width: 480px){
+
+/* Portfolio */
+	.portfolio-4,.portfolio-1,.portfolio-3 {
+		display:block !important;
+		position:relative !important;
+		width:100% !important; 
+		height:auto !important; 
+		margin-left:0 !important; 
+
+		}
+	.portfolio-4 > li, .portfolio-1 > li, .portfolio-3 > li{
+		width:100% !important;  
+		height:300px !important; 
+		position:relative  !important; 
+		top:0  !important;  
+		left:0  !important; 
+		float:left;
+		overflow: hidden;
+		margin:0 0 3% 0 !important;
+		}	
+
+	.portfolio-4 > li.big, .portfolio-1 > li.big, .portfolio-3 > li.big{
+		width:100% !important; 
+		height:auto !important;  
+		}
+
+	ul.portfolio-1 > li.big.pageslider .slid .slid-text, ul.portfolio-3 > li.big.pageslider .slid .slid-text, ul.portfolio-4 > li.big.pageslider .slid .slid-text{
+		padding:50px;
+		}
+
+	ul.portfolio-1 > li > ul.nav, ul.portfolio-3 > li > ul.nav, ul.portfolio-4 > li > ul.nav {
+		padding: 0;
+		margin-bottom: -20px;
+		}	
+	ul.portfolio-2 li{
+		width:100%;
+		}
+
+
+
+
+
+	.blog-1 li img{
+		display:none;
+		}
+	ul.blog-1 > li .blog_desc{
+		padding:30px;
+		}
+	ul.blog-1 > li.big.info_text{
+		padding:30px;
+		}
+	ul.blog-1 > li.big.info_text span {
+		font-size:14pt;
+		}
+		
+		
+		
+		
+/* staff section */
+	.staff-2 .right  {
+		display:none;
+		}	
+	.staff-2 .column  {
+		width:100%;
+		}
+		
+		
+/* Pagination */
+	.pagenation-1 .next{
+		width:100%;
+		text-align:center;
+		}
+	.pagenation-1 .prew{
+		display:none;
+		}
+		
+/* Error */
+	.error {
+		margin-top:0 !important; 
+		}
+		
+		
+/* Popup */
+	.ajax-inject .login .signup,.ajax-inject .login .forget,.ajax-inject .login .signin, 	.ajax-inject .login .popup-inner,.ajax-inject .login .message{
+		width:100%
+		}
+		
+	.ajax-inject .login div.content{
+		padding:0;
+		}
+
+		
+	}

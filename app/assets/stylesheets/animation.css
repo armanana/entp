@@ -1,0 +1,290 @@
+/* ======================================================================================================================================================
+404 page error Animations
+====================================================================================================================================================== */
+
+
+
+
+@-webkit-keyframes bald {
+	/* Chrome, Safari, Opera */
+	from {margin-top:52px;}
+    to {margin-top:0px; }
+	}
+@keyframes bald {
+	/* Standard syntax */
+	from {margin-top:52px;}
+    to {margin-top:0px; }
+    }
+.error {
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name: bald;
+    -webkit-animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-direction: normal;
+    -webkit-animation-play-state: running;
+	-webkit-animation-fill-mode:forwards;
+    /* Standard syntax */
+    animation-name: bald;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-direction: normal;
+    animation-play-state: running;
+	animation-fill-mode:forwards;
+	}
+
+
+
+/*****404  error shadow ******/
+
+@-webkit-keyframes shadow {
+	/* Chrome, Safari, Opera */
+	from {	
+		width:100px; 
+		height:15px;
+		bottom:-10px;
+		background:#dbdbdb;
+		}
+    to {	
+		width:180px; 
+		height:25px;
+		bottom:-52px; 
+		background:#ebebeb;
+		}
+	}
+
+@keyframes shadow {
+	/* Standard syntax */
+	from {	
+		width:100px; 
+		height:15px;
+		bottom:-10px;
+		background:#dbdbdb;
+		}
+    to {	
+		width:180px; 
+		height:25px;
+		bottom:-52px; 
+		background:#ebebeb;
+		}
+    }
+.error:before {
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name: shadow;
+    -webkit-animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-direction: normal;
+    -webkit-animation-play-state: running;
+	-webkit-animation-fill-mode:forwards;
+    /* Standard syntax */
+    animation-name: shadow;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-direction: normal;
+    animation-play-state: running;
+	animation-fill-mode:forwards;
+	}	
+
+
+
+
+
+/*****404  error foot ******/
+
+
+@-webkit-keyframes foot {
+	/* Chrome, Safari, Opera */
+	from {bottom:0px;}
+    to {bottom:-75px;}
+	}
+@keyframes foot {
+	/* Standard syntax */
+	from {bottom:0px;}
+    to {bottom:-75px;}
+    }
+.icon-foot {
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name: foot;
+    -webkit-animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-direction: normal;
+    -webkit-animation-play-state: running;
+	-webkit-animation-fill-mode:forwards;
+    /* Standard syntax */
+    animation-name: foot;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-direction: normal;
+    animation-play-state: running;
+	animation-fill-mode:forwards;
+	}
+
+
+
+
+
+
+/*****404  error hands ******/
+
+
+@-webkit-keyframes hand_left {
+	/* Chrome, Safari, Opera */
+	from {opacity:0; left:-20px;}
+    to {opacity:1; left:-3px;}
+	}
+@keyframes hand_left {
+	/* Standard syntax */
+	from {opacity:0; left:-20px;}
+    to {opacity:1; left:-3px;}
+    }
+@-webkit-keyframes hand_right {
+	/* Chrome, Safari, Opera */
+	from {opacity:0; right:-15px;}
+    to {opacity:1; right:5px;}
+	}
+@keyframes hand_right {
+	/* Standard syntax */
+	from {opacity:0; right:-15px;}
+    to {opacity:1; right:5px;}
+    }
+.icon-hand_left{
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name: hand_left;
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-direction: normal;
+    -webkit-animation-play-state: running;
+	-webkit-animation-fill-mode:forwards;
+    /* Standard syntax */
+    animation-name: hand_left;
+    animation-duration: 0.1s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-direction: normal;
+    animation-play-state: running;
+	animation-fill-mode:forwards;
+	}
+.icon-hand_right {
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name: hand_right;
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-direction: normal;
+    -webkit-animation-play-state: running;
+	-webkit-animation-fill-mode:forwards;
+    /* Standard syntax */
+    animation-name: hand_right;
+    animation-duration: 0.1s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-direction: normal;
+    animation-play-state: running;
+	animation-fill-mode:forwards;
+	}
+
+
+
+
+
+/*****404  error head ******/
+
+
+@-webkit-keyframes head {
+	/* Chrome, Safari, Opera */
+	from {top:39px;}
+    to {top:-38px;}
+	}
+@keyframes head {
+	/* Standard syntax */
+	from {top:39px;}
+    to {top:-38px;}
+    }
+.icon-head  {
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name: head;
+    -webkit-animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-direction: normal;
+    -webkit-animation-play-state: running;
+	-webkit-animation-fill-mode:forwards;
+    /* Standard syntax */
+    animation-name: head;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-direction: normal;
+    animation-play-state: running;
+	animation-fill-mode:forwards;
+	}
+
+
+
+/*****Slider -1 ******/
+
+@-webkit-keyframes slider-text {
+	/* Chrome, Safari, Opera */
+	from {opacity:0;}
+    to {opacity:1; }
+}
+
+@keyframes slider-text {
+	/* Standard syntax */
+	from {opacity:0;}
+    to {opacity:1;}
+    }
+#slider-1 .slid.active h1,#slider-1 .slid.active h2, #slider-1 .slid.active p ,  #slider-1 .slid.active button{
+	opacity:0;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name: slider-text;
+    -webkit-animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0.5s;
+    -webkit-animation-direction: normal;
+    -webkit-animation-play-state: running;
+	-webkit-animation-fill-mode:forwards;
+    /* Standard syntax */
+    animation-name: slider-text;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-delay: 0.5s;
+    animation-direction: normal;
+    animation-play-state: running;
+	animation-fill-mode:forwards;
+}
+
+
+
+
+
+/***** Transitions 0.2 ******/
+
+
+
+
+#slider-4 .last:after , 
+#slider-4 .next:after{
+	-webkit-transition: -webkit-transform 0.2s;
+	-moz-transition: -moz-transform 0.2s;
+	-o-transition: -o-transform 0.2s;
+	transition: transform 0.2s;
+}
+
+/***** Transitions 0.3 ******/
+
+
+#slider-4 .last , #slider-4 .next{
+	-webkit-transition: -webkit-transform 0.3s;
+	-moz-transition: -moz-transform 0.3s;
+	-o-transition: -o-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+
