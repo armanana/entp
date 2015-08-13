@@ -6,6 +6,13 @@
 @media screen and (min-width: 1701px){
 
 }
+
+header {
+		background: transparent!important;
+}
+
+
+
 @media screen and (max-width: 1050px){
 	section.container, footer, section div.content{
 	width:960px;

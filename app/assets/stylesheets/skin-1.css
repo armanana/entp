@@ -87,6 +87,8 @@ ul.features-1 > li:hover,
 	color: #fff;
 	border: 1px solid #1fd5b2;
 	background: #1fd5b2;
+	transition: 0.8s;
+	-webkit-transition: 0.8s;
 }	
 
 .second-left {

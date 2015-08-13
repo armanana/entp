@@ -57,7 +57,6 @@ input:focus, select:focus , textarea:focus{
 	
 a{
 	text-decoration:none; 
-	color:#0693f6;
 	}
 a img {
 	border: 0px;
@@ -76,12 +75,19 @@ h6, h6 a
 	font-family: 'Roboto Slab', serif;
 	}
 
+h1.title {
+	color: #fff;
+}
+
+h3.title {
+	color: #fff;
+}	
+
 footer {
   border-top: 1px solid rgba(0, 0, 0, 0.0666667);
 }
 
 #pageheader	{
-	height: 430px;
 	border-color:rgba(0, 0, 0, 0.0666667);
   border-style:solid;
   border-width:0 0 1px;
@@ -94,7 +100,7 @@ footer {
 }
 
 h2#title {
-
+	margin-top: 50px;
     font-size:23pt;
   font-weight:700;
   line-height:10pt;
@@ -148,16 +154,17 @@ h6 {
 button,.btn{
 	height:35px;
 	text-transform: uppercase;
-	padding:0px 20px;
+	padding:1px 20px;
 	border-width:1px;
 	border-radius:35px;
 	line-height:30px;
-	font-size:0.65em;
+	font-size:11px;
 	letter-spacing: 1px;
 	}
 
 button:hover ,.btn:hover {
-	background:none;
+	background:#F4ED48;
+	font-weight: bold;
 	letter-spacing: 2px;
 	}
 	
@@ -169,27 +176,32 @@ button:hover ,.btn:hover {
 
 
 header{
-	margin:auto;
-	height:100px;
+	margin:0 auto;
 	width:100%;
+	height: 0;
 	position:relative;
 	z-index:99999;
-	padding:35px 0;
+	padding:0;
 	}
-header .logo{
-	display:table-cell;
-	float:left;
-	line-height: 35px;
-	}
+
+.logo	{
+	margin: 0 auto;
+	text-align: left;
+}
+
+
 header .logo img{
-	vertical-align: middle;
 	transition: 0.8s;
-	width: 100px;
-	margin-top: 10px;
 	-webkit-transition: 0.8s;
-	width:80%;
-	padding: 5px;
+	width: 100px;
+	margin-top: 35px;
 	}
+
+header .logo img:hover{
+	background: #00d9b8;
+	}
+
+
 body.menu-auto-bg header{
 	position:absolute;
 	}
@@ -217,7 +229,6 @@ body.menu-bg header,body.menu-auto-bg.scrolltop header{
 	overflow:hidden;
 	}
 .page_top section.container{
-	padding-top:140px;
 	height:100%;
 	box-sizing:border-box;
 	}
@@ -259,26 +270,43 @@ ul.menu {
 
 .menu li.sub {
 	padding:10px 15px;
+}
+
+.menu li.sub:first-child {
+	padding-left: 0;
+}
+.menu li.sub:last-child {
+	padding-right: 0;
 }	
 
 
-.menu li a:last-child {
+.menu li:first-child {
+	padding-left: 0;
 
-	border-right: 1px solid #444; 
+}
+
+.menu li:last-child {
+	padding-right: 0;
+}
+
+.menu li a:last-child {
+	border-right: 1px solid #efefef; 
 }
 
 .menu li a {
-	color: #000!important;
-	background: #fff!important;
+	color: #efefef!important;
+	background: none!important;
 	padding:10px 15px;
-	border: 1px solid #444;
+	border: 1px solid #efefef;
 }
 
 .menu li a:hover {
 	color: #fff!important;
-	background: #222!important;
+	background: #00d9b8!important;
 	padding:10px 15px;
-	border: 1px solid #444;
+	transition: 0.8s;
+	-webkit-transition: 0.8s;
+	border: 1px solid #00d9b8;
 }
 	
  
@@ -365,7 +393,8 @@ header .compact-menu-icon{
 
 
 .container{
-	width:1170px;
+	width:100%;
+	padding: 0 5%!important;
 	margin:auto;
 	position:relative;
 	box-sizing:box-border;
@@ -373,22 +402,20 @@ header .compact-menu-icon{
 
 body {
 
-	background-image: url(/img/background.png);
-	background-size: cover;
+	background-image: url(/img/background_05.jpg);
+	background-size: 100%;
 	background-repeat: no-repeat!important;
 }
 
 
+
 body > section.container{
 	margin-bottom:30px;
-	min-height:63%;
 	}
 body > section.container .content-bg img{
 	max-width:100%;
 	}
-body section.container.content{
-	padding-top:90px;
-	}
+
 .full-screen{
     left: 50%;
     top: 50%;
@@ -450,6 +477,12 @@ body section.container.content{
     background-size: cover;
 	z-index: -1;
 	}
+
+p.soon {
+	text-align: center!important;
+	color: #fff!important;
+}
+
 .middle{
 	position: relative; 
 	display:table-cell;
@@ -457,6 +490,7 @@ body section.container.content{
 	}
 body.page .title_center{
 	text-align:center;
+	width: 50%;
 	}	
 body.page .title_center h1{
 	width:95%;
@@ -475,7 +509,7 @@ body.page .title_center p{
 	box-sizing:border-box;
 	}
 .padding-block{
-	padding:3rem 0;
+	padding:5rem 0;
 	}
 
 	
@@ -539,6 +573,10 @@ body.page .title_center p{
 	-webkit-transition: 0;
 	visibility: visible;
 	}
+
+.center {
+	text-align: center;
+}
 
 .pageslider ul.nav{
 	padding:0;
@@ -1110,16 +1148,16 @@ body.index.fp-viewing-support header .menu.main li a{
 	color:#666 !important;
 	}
 body.index div.fp-tableCell,body.index div.container{
-	width:1170px;
-	margin:auto;
+	width:100%;
+	padding: 0 5%;
 	position:relative;
 	height:100%;
 	display:table-cell;
 	vertical-align: middle;
 	}
 section  div.content{
-	width:1170px;
-	margin:auto;
+	width:100%;
+	margin:0 5%;
 	height:100%;
 	display:table;
 	position:relative;
@@ -1965,16 +2003,19 @@ ul.portfolio-2 li:hover:before{
 ul.portfolio-2 li:hover .work-desc{
 	opacity:1;
 	}
-ul.portfolio-2 li .work-desc h3 a{
-	font-size:16pt;
+ul.portfolio-2 li .work-desc h3 {
+	font-size:14px;
+	font-weight: 900;
+	color: #333;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
 	}
 ul.portfolio-2 li .work-desc h6 {
 	font-family: 'Open Sans', sans-serif;
-	font-weight:700;
-	text-transform: uppercase; 
-	font-size:10pt;
-	line-height:10pt;
-	margin-top:-5rem;
+	font-weight:300;
+	font-size:30px;
+	color: #333;
+	line-height:11px;
 	}
 
 	
